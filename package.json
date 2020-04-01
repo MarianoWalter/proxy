@@ -1,0 +1,31 @@
+{
+	"name": "mw-proxy",
+	"version": "0.1.0",
+	"description": "Redirect http requests from a port to a specified URL",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"mw-proxy": "./index.js",
+		"proxy": "./index.js"
+	},
+	"keywords": [
+		"express",
+		"http",
+		"proxy",
+		"redirect"
+	],
+	"author": "Mariano Walter <marianowalter.14@gmail.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-config-mwalter": "^1.0.5"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-http-proxy": "^1.6.0",
+		"yargs": "^15.3.1"
+	}
+}
